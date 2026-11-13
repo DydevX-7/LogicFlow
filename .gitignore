@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+**/.venv/
+venv/
+
+# Build files
+build/
+dist/
+release/
+
+# User data
+storage/accounts/
+storage/projects/
+storage/learning_progress.json
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE settings
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
